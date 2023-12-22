@@ -3,7 +3,7 @@ import React from 'react'
 import COLORS from '../constants/colors'
 
 
-const Home = ({ navgation }) => {
+const Home = ({ navigation }) => {
     return (
     <View></View>
    

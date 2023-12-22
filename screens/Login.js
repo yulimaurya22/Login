@@ -5,7 +5,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Button from '../components/Button';
 
-const Login = () => {
+const Login = ({ navigation }) => {
   const [isPasswordShown, setIsPasswordShown] = useState(false);
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
